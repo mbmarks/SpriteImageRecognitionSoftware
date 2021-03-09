@@ -10,4 +10,14 @@ To use the software, you will need to have knowledge of Python and the terminal 
   
 Example: M20120110_231539_FGCU_02  
   
-Depending on which version being used the sprites are either analyzed by month or in a heap (all raw images in one folder). In this solution we will discuss when the images are in a heap.
+Depending on which version is being used the sprites are either analyzed by month (in directory structure) or in a sinlge directory (all raw images in one folder). We will discuss the use case when the images are in a single directory.  
+  
+#### Single Directory Usage
+1.	Create a workspace directory with a folder named “./Raw_Data”.
+2.	Put all the images that you want to analyze into the folder named “./Raw_Data”.
+3.	Put the “sprite_load_test.py” and “model.h5” files into the workspace directory.
+4.	Run “python sprite_load_test.py” in terminal; it could be “python3” depending on the system.
+5.	If any sprites are detected, they will be in a folder created in the workspace directory named “found_sprites”.
+
+
+
